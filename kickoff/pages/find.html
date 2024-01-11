@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KICKOFF</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/setcion/_find.css">
+    <style>
+        #header {
+            width: 100%;
+            height: 55px;
+            background-color: red;
+            position: fixed;
+            top: 0;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+        }
+
+        .header__left,
+        .header__right {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header__left">
+                <h1 class="logo">
+                    KICKOFF
+                </h1>
+                <div class="search">
+                    <label for="search">SEARCH</label>
+                    <input type="text" name="search" placeholder="Premier League, Chelsea">
+                </div>
+            </div>
+
+            <div class="header__right">
+                <div class="link">
+                    board
+                </div>
+                <div class="time">
+                    time
+                </div>
+                <div class="login">
+                    <a href="#">
+                        LOGIN
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="login__wrap">
+            <div class="ContextLogo">
+                <div class="logo__wrap">
+                    <img class="Context__header-icon" src="/assets/img/image01.png" alt="KICKOFF">
+                    <h2 class="Context__header-title">KICKOFF</h2>
+                </div>
+            </div>
+            <div class="CardLayout-Container">
+                <div class="CardLayout">
+                    <header class="CardLayout__header">
+                        <h2>내 계정 찾기</h2>
+                    </header>
+                    <div class="EmailPage__content">
+                        <form id="EmailForm">
+                            <div class="email-field">
+                                <p>이전에 사용한 이메일이나 국가 코드가 포함된 전화번호를 입력하시면 귀하의 계정을 찾아보도록 하겠습니다.</p>
+                                <div class="email_address">
+                                    <label for="EmailPage-EmailField">이메일 주소</label>
+                                    <input type="email" placeholder="이메일을 입력해주세요" autocomplete="email"
+                                        id="EmailPage-EmailField" name="username" value="">
+                                </div>
+                            </div>
+                            <div class="EmailPage__submit">
+                                <button>
+                                    <span>계속</span>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="RuleWithText"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

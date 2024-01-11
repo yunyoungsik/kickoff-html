@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KICKOFF</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header__left">
+                <h1 class="logo">
+                    KICKOFF
+                </h1>
+                <!-- //logo -->
+                <div class="search">
+                    <svg fill="#000000" height="800px" width="800px" version="1.1" id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 488.4 488.4" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6
+			s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2
+			S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7
+			S381.9,104.65,381.9,203.25z" />
+                            </g>
+                        </g>
+                    </svg>
+                    <label for="search">SEARCH</label>
+                    <input type="text" name="search" placeholder="Premier League, Chelsea">
+                </div>
+                <!-- //search -->
+            </div>
+
+            <div class="header__right">
+                <div class="link">
+                    <label for="link" class="blind">LINK</label>
+                    <select name="link" id="link">
+                        <option value="NOTICE">NOTICE</option>
+                        <option value="BOARD">BOARD</option>
+                    </select>
+                </div>
+                <div class="time">
+                    <label for="time" class="blind">LINK</label>
+                    <select name="time" id="lintimek">
+                        <option value="KOREA">15:33<i>(SEOUL+1)</i></option>
+                        <option value="JAPAN">15:33<i>(TOKYO+1)</i></option>
+                    </select>
+                </div>
+                <div class="login">
+                    <a href="#">
+                        LOGIN
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <div class="login__wrap">
+            <div class="ContextLogo">
+                <div class="logo__wrap">
+                    <img class="Context__header-icon" src="/assets/img/image01.png" alt="KICKOFF">
+                    <h2 class="Context__header-title">KICKOFF</h2>
+                </div>
+            </div>
+            <div class="CardLayout-Container">
+                <div class="CardLayout">
+                    <header class="CardLayout__header">
+                        <h2>로그인</h2>
+                    </header>
+                    <div class="EmailPage__content">
+                        <form id="EmailForm">
+                            <div class="email-field">
+                                <p>신규 사용자이신가요?<a href="#"> 계정 만들기</a></p>
+                                <div class="email_address">
+                                    <label for="EmailPage-EmailField">이메일 주소</label>
+                                    <input type="email" autocomplete="email" id="EmailPage-EmailField" name="username"
+                                        value="">
+                                </div>
+                            </div>
+                            <div class="EmailPage__submit">
+                                <button>
+                                    <span>계속</span>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="RuleWithText-container">
+                            <div class="RuleWithText-line"></div>
+                            <div class="RuleWithText">또는</div>
+                            <div class="RuleWithText-line"></div>
+                        </div>
+                        <div id="SocialButtons-Container">
+                            <a href=" #">
+                                <img src="/assets/img/sml-google-logo.svg" alt="">
+                                <span><em>google</em>로 계속</span>
+                            </a>
+                            <a href="#">
+                                <img src="/assets/img/sml-google-logo.svg" alt="">
+                                <span><em>kakao</em>로 계속</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

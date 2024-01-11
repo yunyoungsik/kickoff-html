@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KICKOFF</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header__left">
+                <h1 class="logo">
+                    KICKOFF
+                </h1>
+                <!-- //logo -->
+                <div class="search">
+                    <svg fill="#000000" height="800px" width="800px" version="1.1" id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 488.4 488.4" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6
+			s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2
+			S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7
+			S381.9,104.65,381.9,203.25z" />
+                            </g>
+                        </g>
+                    </svg>
+                    <label for="search">SEARCH</label>
+                    <input type="text" name="search" placeholder="Premier League, Chelsea">
+                </div>
+                <!-- //search -->
+            </div>
+
+            <div class="header__right">
+                <div class="link">
+                    <label for="link" class="blind">LINK</label>
+                    <select name="link" id="link">
+                        <option value="NOTICE">NOTICE</option>
+                        <option value="BOARD">BOARD</option>
+                    </select>
+                </div>
+                <div class="time">
+                    <label for="time" class="blind">LINK</label>
+                    <select name="time" id="lintimek">
+                        <option value="KOREA">15:33<i>(SEOUL+1)</i></option>
+                        <option value="JAPAN">15:33<i>(TOKYO+1)</i></option>
+                    </select>
+                </div>
+                <div class="login">
+                    <a href="#">
+                        LOGIN
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav id="nav">
+            <div class="nav__inner">
+                <ul>
+                    <li class="active">
+                        <a href="#">
+                            <img src="./assets/img/icon/premier.png" alt="premier">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/img/icon/premier.png" alt="premier">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/img/icon/premier.png" alt="premier">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/img/icon/premier.png" alt="premier">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/img/icon/premier.png" alt="premier">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <aside id="aside">
+            <div class="aside__match">
+                <div class="aside__close">
+                    <span>X</span>
+                </div>
+                <div class="aside__info">
+                    <div class="home">
+                        <div class="logo">
+                            <img src="./assets/img/liverpool.png" alt="임시">
+                        </div>
+                        <p class="team">liverpool</p>
+                        <a href="#">HOME</a>
+                    </div>
+                    <div class="score">
+                        <div class="league">
+                            Premier League
+                        </div>
+                        <div class="home__score">
+                            1
+                        </div>
+                        <span>:</span>
+                        <div class="away__score">
+                            2
+                        </div>
+                    </div>
+                    <div class="away">
+                        <div class="logo">
+                            <img src="./assets/img/liverpool.png" alt="임시">
+                        </div>
+                        <p class="team">liverpool</p>
+                        <a href="#">AWAY</a>
+                    </div>
+                </div>
+            </div>
+            <div class="aside__ad">
+                광 고
+            </div>
+            <div class="aside__score">
+                <div class="score__title">
+                    <h2>recent matches</h2>
+                </div>
+                <div class="score__match">
+                    <ul>
+                        <li>
+                            <div class="home">
+                                <div class="logo">
+                                    <img src="./assets/img/liverpool.png" alt="임시">
+                                </div>
+                                <p class="team lose">liverpool</p>
+                            </div>
+                            <div class="score">
+                                <div class="score__inner">
+                                    <div class="home__score loseScore">
+                                        1
+                                    </div>
+                                    <span>:</span>
+                                    <div class="away__score">
+                                        2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="away">
+                                <p class="team">liverpool</p>
+                                <div class="logo">
+                                    <img src="./assets/img/liverpool.png" alt="임시">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home">
+                                <div class="logo">
+                                    <img src="./assets/img/liverpool.png" alt="임시">
+                                </div>
+                                <p class="team lose">liverpool</p>
+                            </div>
+                            <div class="score">
+                                <div class="score__inner">
+                                    <div class="home__score loseScore">
+                                        1
+                                    </div>
+                                    <span>:</span>
+                                    <div class="away__score">
+                                        2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="away">
+                                <p class="team">liverpool</p>
+                                <div class="logo">
+                                    <img src="./assets/img/liverpool.png" alt="임시">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home">
+                                <div class="logo">
+                                    <img src="./assets/img/liverpool.png" alt="임시">
+                                </div>
+                                <p class="team">liverpool</p>
+                            </div>
+                            <div class="score">
+                                <div class="score__inner">
+                                    <div class="home__score">
+                                        1
+                                    </div>
+                                    <span>:</span>
+                                    <div class="away__score loseScore">
+                                        2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="away">
+                                <p class="team lose">liverpool</p>
+                                <div class="logo">
+                                    <img src="./assets/img/liverpool.png" alt="임시">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home">
+                                <div class="logo">
+                                    <img src="./assets/img/liverpool.png" alt="임시">
+                                </div>
+                                <p class="team">liverpool</p>
+                            </div>
+                            <div class="score">
+                                <div class="score__inner">
+                                    <div class="home__score">
+                                        1
+                                    </div>
+                                    <span>:</span>
+                                    <div class="away__score loseScore">
+                                        2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="away">
+                                <p class="team lose">liverpool</p>
+                                <div class="logo">
+                                    <img src="./assets/img/liverpool.png" alt="임시">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home">
+                                <div class="logo">
+                                    <img src="./assets/img/liverpool.png" alt="임시">
+                                </div>
+                                <p class="team">liverpool</p>
+                            </div>
+                            <div class="score">
+                                <div class="score__inner">
+                                    <div class="home__score">
+                                        1
+                                    </div>
+                                    <span>:</span>
+                                    <div class="away__score loseScore">
+                                        2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="away">
+                                <p class="team lose">liverpool</p>
+                                <div class="logo">
+                                    <img src="./assets/img/liverpool.png" alt="임시">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <main id="main">
+            <div class="today__highlight">
+                <div class="highlight__info">
+                    <div class="league">
+                        PREMIER LEAGUE
+                    </div>
+                    <div class="home">
+                        chelsea
+                    </div>
+                    <span>VS</span>
+                    <div class="away">
+                        ARSENAL
+                    </div>
+                    <div class="desc">
+                        한국대표팀 주장 손흥민은 지난 4일
+                        맨체스터 시티(이하 맨시티)를 맞아
+                        1골, 1도움, 1자책골을 기록했다.
+                    </div>
+                    <div class="btn">
+                        <a href="#">
+                            <div class="icon">
+                                <svg height="200px" width="200px" version="1.1" id="_x32_"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path class="st0"
+                                                d="M512,230.431L283.498,44.621v94.807C60.776,141.244-21.842,307.324,4.826,467.379 c48.696-99.493,149.915-138.677,278.672-143.14v92.003L512,230.431z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <i>VIEW</i>
+                        </a>
+                    </div>
+                </div>
+                <div class="highlight__socre">
+                    <div class="league">
+                        <p>PREMIERLEAGUE</p>
+                    </div>
+                    <div class="score">
+                        <div class="home">
+                            <span>HOME</span>
+                            <p>chelsea</p>
+                        </div>
+                        <div class="point">
+                            <i>SCORE</i>
+                            <span>
+                                <div class="home">
+                                    1
+                                </div>
+                                <span>:</span>
+                                <div class="away">
+                                    2
+                                </div>
+                            </span>
+                        </div>
+                        <div class="away">
+                            <span>AWAY</span>
+                            <p>arsenal</p>
+                        </div>
+                    </div>
+                    <div class="date">
+                        <p>DATE <span>2023.12.06</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="main__board">
+                <div class="card">
+                    <div class="title">
+                        <p>today issue</p>
+                    </div>
+                    <p class="desc">
+                        이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 이번주
+                        해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯
+                        이번주 해축 레전드인듯
+                        이번주 해축 레전드인듯 이번주 해축 레전드인듯
+                    </p>
+                    <div class="btn">
+                        <div class="like">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5C13 20.5 14 19.7294 15.0383 18.9109C17.9806 16.5914 22 14 22 9.1371C22 4.27416 16.4998 0.825464 12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371Z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <span>369</span>
+                        </div>
+                        <div class="share">
+                            <svg height="200px" width="200px" version="1.1" id="_x32_"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path class="st0"
+                                            d="M512,230.431L283.498,44.621v94.807C60.776,141.244-21.842,307.324,4.826,467.379 c48.696-99.493,149.915-138.677,278.672-143.14v92.003L512,230.431z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <span>369</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- //1 -->
+                <div class="card">
+                    <div class="title">
+                        <p>today issue</p>
+                    </div>
+                    <p class="desc">
+                        이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 이번주
+                        해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯
+                        이번주 해축 레전드인듯
+                        이번주 해축 레전드인듯 이번주 해축 레전드인듯
+                    </p>
+                    <div class="btn">
+                        <div class="like">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5C13 20.5 14 19.7294 15.0383 18.9109C17.9806 16.5914 22 14 22 9.1371C22 4.27416 16.4998 0.825464 12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371Z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <span>369</span>
+                        </div>
+                        <div class="share">
+                            <svg height="200px" width="200px" version="1.1" id="_x32_"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path class="st0"
+                                            d="M512,230.431L283.498,44.621v94.807C60.776,141.244-21.842,307.324,4.826,467.379 c48.696-99.493,149.915-138.677,278.672-143.14v92.003L512,230.431z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <span>369</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- //2 -->
+                <div class="card">
+                    <div class="title">
+                        <p>today issue</p>
+                    </div>
+                    <p class="desc">
+                        이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 이번주
+                        해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯
+                        이번주 해축 레전드인듯
+                        이번주 해축 레전드인듯 이번주 해축 레전드인듯
+                    </p>
+                    <div class="btn">
+                        <div class="like">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5C13 20.5 14 19.7294 15.0383 18.9109C17.9806 16.5914 22 14 22 9.1371C22 4.27416 16.4998 0.825464 12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371Z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <span>369</span>
+                        </div>
+                        <div class="share">
+                            <svg height="200px" width="200px" version="1.1" id="_x32_"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path class="st0"
+                                            d="M512,230.431L283.498,44.621v94.807C60.776,141.244-21.842,307.324,4.826,467.379 c48.696-99.493,149.915-138.677,278.672-143.14v92.003L512,230.431z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <span>369</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- //3 -->
+                <div class="card">
+                    <div class="title">
+                        <p>today issue</p>
+                    </div>
+                    <p class="desc">
+                        이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 이번주
+                        해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯이번주 해축 레전드인듯이번주 해축 레전드인듯 이번주 해축 레전드인듯
+                        이번주 해축 레전드인듯
+                        이번주 해축 레전드인듯 이번주 해축 레전드인듯
+                    </p>
+                    <div class="btn">
+                        <div class="like">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5C13 20.5 14 19.7294 15.0383 18.9109C17.9806 16.5914 22 14 22 9.1371C22 4.27416 16.4998 0.825464 12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371Z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <span>369</span>
+                        </div>
+                        <div class="share">
+                            <svg height="200px" width="200px" version="1.1" id="_x32_"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path class="st0"
+                                            d="M512,230.431L283.498,44.621v94.807C60.776,141.244-21.842,307.324,4.826,467.379 c48.696-99.493,149.915-138.677,278.672-143.14v92.003L512,230.431z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <span>369</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- //4 -->
+            </div>
+            <div class="main__video">
+                <div class="video__wrap">
+                    <div class="video">
+                        <a href="#">
+                            <img src="./assets/img/thum.jpg" alt="임시">
+                        </a>
+                    </div>
+                    <div class="video">
+                        <a href="#">
+                            <img src="./assets/img/thum.jpg" alt="임시">
+                        </a>
+                    </div>
+                    <div class="video">
+                        <a href="#">
+                            <img src="./assets/img/thum.jpg" alt="임시">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer id="footer"></footer>
+</body>
+
+</html>
